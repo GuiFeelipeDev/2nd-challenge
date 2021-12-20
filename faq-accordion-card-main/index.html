@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="stylesheet" type="text/css" href="css/style.css"></link>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | FAQ Accordion Card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+</head>
+<body>
+
+  <div class="container">
+    <div class="images">
+      <div class="box">
+        <img src="/images/illustration-box-desktop.svg" class="bximg">
+      </div>
+      <div class="img1">
+        <img src="images/illustration-woman-online-desktop.svg" class="wimg">
+      </div>
+      <div class="img2">
+        <img src="/images/bg-pattern-desktop.svg" class="bck">
+
+      </div>
+    </div>
+
+
+    <div class="questions">
+      
+      <div class="qstlist">
+        <h1>FAQ</h1>
+        <div class="qst" id="qst1">
+          <h3 onclick=expand(0) class="h3 h2">How many team members can I invite?<i><img src="/images/icon-arrow-down.svg" class="ico"><br></i></h3>
+          <p class="expanded qst1">
+            You can invite up to 2 additional users on the Free plan. 
+            There is no limit on 
+            team members for the Premium plan.
+          </p>
+        </div>
+
+
+        <div class="qst" id="qst2">
+          <h3 onclick=expand(1) class="h3 h2" class="h3 h2">What is the maximum file upload size?<i><img src="/images/icon-arrow-down.svg" class="ico"><br></i></h3>
+          <p class="expanded qst1">
+            No more than 2GB. All files in your account must fit your allotted storage space.
+          </p>
+      </div>
+
+
+      <div class="qst" id="qst2">
+        <h3 onclick=expand(2) class="h3 h2">How do I reset my password?<i><img src="/images/icon-arrow-down.svg" class="ico"><br></i></h3>
+        <p class="expanded qst1">
+          Click “Forgot password” from the login page or “Change password” from your profile page.
+          A reset link will be emailed to you.
+        </p>
+      </div>
+
+
+      <div class="qst" id="qst2">
+        <h3 onclick=expand(3) class="h3 h2">Can I cancel my subscription?<i><img src="/images/icon-arrow-down.svg" class="ico"><br></i></h3>
+        <p class="expanded qst1">
+          Yes! Send us a message and we’ll process your request no questions asked.
+        </p>
+      </div>
+
+
+      <div class="qst" id="qst2">
+        <h3 onclick=expand(4) class="h3 h2">Do you provide additional support?<i><img src="/images/icon-arrow-down.svg" class="ico"><br></i></h3>
+        <p class="expanded qst1">
+          Chat and email support is available 24/7. Phone lines are open during normal business hours.
+        </p>
+      </div>
+    </div>
+  </div>
+
+</body>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet"> 
+  <script src="/js/script.js"></script>
+</html>
